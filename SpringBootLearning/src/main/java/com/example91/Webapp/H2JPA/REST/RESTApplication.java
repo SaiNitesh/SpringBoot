@@ -1,4 +1,4 @@
-package com.example8.Webapp.H2JPA;
+package com.example91.Webapp.H2JPA.REST;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,9 +9,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 @EntityScan("com.example.common.model")
 @EnableJpaRepositories("com.example.common.facades")
-public class H2JPAApplication {
+public class RESTApplication {
 
 	public static void main(String[] args) {
-		ConfigurableApplicationContext context = SpringApplication.run(H2JPAApplication.class, args);
+		ConfigurableApplicationContext context = SpringApplication.run(RESTApplication.class, args);
 	}
 }

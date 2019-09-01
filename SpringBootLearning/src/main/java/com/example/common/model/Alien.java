@@ -1,12 +1,14 @@
-package com.example8.Webapp.H2JPA;
+package com.example.common.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
 public class Alien {
 	
 	@Id
+	@GeneratedValue
 	private int id;
 	private String name;
 	public int getId() {

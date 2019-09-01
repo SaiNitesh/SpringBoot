@@ -1,4 +1,4 @@
-package com.example8.Webapp.H2JPA;
+package com.example9.Webapp.H2JPA.userDefinedRepoMethods;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

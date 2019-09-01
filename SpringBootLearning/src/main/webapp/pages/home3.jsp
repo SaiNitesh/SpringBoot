@@ -8,9 +8,15 @@
 </head>
 <body>
 
-	<form action="addAlien">
+	<form action="addAlien" method="POST">
 		<input type="text" name="id"><br>
 		<input type="text" name="name"><br>
+		<input type="submit"><br>
+	</form>
+	
+	<form action="getAlien">
+		<input type="text" name="id"><br>
+		
 		<input type="submit"><br>
 	</form>
 
