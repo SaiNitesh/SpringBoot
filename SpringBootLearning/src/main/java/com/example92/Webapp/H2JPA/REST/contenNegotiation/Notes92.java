@@ -57,6 +57,8 @@ public class Notes92 {
 	 *  and @ResponseBody will accept only data not views
 	 *  
 	 *  POst, Put always takes the request DATA from client and returns the reponse DATA
+	 *  
+	 *  contentNegotiation is the way data will accept from client in a format like json,xml etc.
 	 * 
 	 * 
 	 *  */

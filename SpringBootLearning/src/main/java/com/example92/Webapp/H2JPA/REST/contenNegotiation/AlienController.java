@@ -27,6 +27,9 @@ public class AlienController {
 	@Autowired
 	AlienRepo repo;
 	
+	//@RequestBody annotation is used to map the request body JSON data into
+	// the Alien object
+	//use postman to test
 	@PostMapping(path="/alien", consumes = {"application/json"})
 	public Alien addAlienB(@RequestBody Alien alien) {
 		

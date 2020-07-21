@@ -12,7 +12,7 @@ ${alien}
 
 
 <form action="getAlien">
-		<input type="text" name="id"><br>
+		ID<input type="text" name="id"><br>
 		
 		<input type="submit"><br>
 	</form>
